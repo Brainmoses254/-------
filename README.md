@@ -1,15 +1,15 @@
 
 <div align="center"> 
-<strong>JUNE X </strong>
+<strong>wanda X </strong>
     <br>
   <a href="https://git.io/typing-svg"> 
-    <img src="https://readme-typing-svg.demolab.com?font=Rockwell&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=June-Official;Multi+Device+Whatsapp+Bot;Made+by+supreme" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Rockwell&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=wanda-Official;Multi+Device+Whatsapp+Bot;Made+by+supreme" alt="Typing SVG" />
   </a> 
 </div> 
 
 <div align="center"> 
   <a href=""> 
-    <img src="https://files.catbox.moe/pr5ynj.jpg" alt="JUNE X" height="300"> 
+    <img src="https://files.catbox.moe/tihrtk.jpg" alt="wanda X" height="1000"> 
   </a> 
 </div>
 
