@@ -9,7 +9,7 @@
 
 <div align="center"> 
   <a href=""> 
-    <img src="https://files.catbox.moe/tihrtk.jpg" alt="wanda X" height="1000"> 
+    <img src="https://files.catbox.moe/tihrtk.jpg" alt="wanda X" height="10000"> 
   </a> 
 </div>
 
