@@ -1,43 +1,19 @@
 {
-  "name": "JUNEX",
-  "description": "June-x, your friendly assistant!",
-  "logo": "https://h.uguu.se/GiYWpWoC.jpg",
-  "keywords": [],
-  "repository": "https://github.com/Vinpink2/JUNE-X",
-  "stack": "container",
-  "addons": [
-    {
-      "plan": "heroku-postgresql"
-    }
-  ],
-  "scripts": {
-    "start": "node index.js"
-  },
-"env": {
-  "SESSION_ID": {
-    "description": "Must begin with 'JUNE-MD:~'.",
-    "value": "",
-    "required": true
-  }
-},  
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "basic"
-    }
-  },
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    },
-    {
-      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-    }
-  ]
+    "name": "pair session",
+    "description": "Web Session Generator",
+    "logo": "https://i.imgur.com/teQzVR1.jpeg",
+    "repository": "https://github.com/XdKing2/malvin-pair",
+    "keywords": ["MalvinTech","XdKing2"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      }
+    }   
+
 }
+
+
