@@ -1,5 +1,6 @@
+# heroku.yml - Container-based deploy (optional)
 build:
   docker:
-      worker: Dockerfile
+    web: Dockerfile
 run:
-   worker:   npm start
+  web: node headme.js
