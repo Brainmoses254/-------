@@ -1,54 +1,40 @@
+# WhatsApp Pairing Bot — virus
 
-<div align="center"> 
-<strong>wanda X </strong>
-    <br>
-  <a href="https://git.io/typing-svg"> 
-    <img src="https://readme-typing-svg.demolab.com?font=Rockwell&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=wanda-Official;Multi+Device+Whatsapp+Bot;Made+by+supreme" alt="Typing SVG" />
-  </a> 
-</div> 
+This repository contains:
+- A WhatsApp bot (whatsapp-web.js) that can reply to messages and send your uploaded song.
+- A static pairing site (pair.html) with a background image and an audio player.
+- Dockerfile, heroku manifest, and app.json for deploying.
 
-<div align="center"> 
-  <a href=""> 
-    <img src="https://files.catbox.moe/tihrtk.jpg" alt="wanda X" height="10000"> 
-  </a> 
-</div>
+Important: You must provide your own image and song.
+- Background image: put at public/assets/background.jpg (or edit public/pair.css to use a remote URL).
+- Song audio: put at public/assets/song.mp3
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=the+bot+supports+deployment;on+all+free+panels+easily)](https://git.io/typing-svg)
+Quick start (local)
+1. Clone repo locally.
+2. Place your image and song:
+   - mkdir -p public/assets
+   - curl -o public/assets/background.jpg "https://files.catbox.moe/tihrtk.jpg"   # or upload your own
+   - cp /path/to/your-song.mp3 public/assets/song.mp3
+3. Install:
+   - npm install
+4. Start:
+   - npm start
+5. In the server console you'll see a QR when starting the WhatsApp client. Scan it with WhatsApp (Settings → Linked Devices → Link a Device).
+6. Open http://localhost:3000/pair.html to use the pairing page.
 
-<div align="center">    
-<strong> DEPLOY JUNE-X </strong>
-    <br>
-  <a href="https://auth-ivory-delta.vercel.app/">
-    <img src="https://img.shields.io/badge/Deploy%20June-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkgreen" alt="FORK REPO"/>
-  </a>
-</div>
-<br>
-<div align="center">
-<strong> SESSION PAIRS </strong>
-    <br>
-  <a href="https://pairtesth2-e3bee12e097b.herokuapp.com/pair" target="_blank">
-    <img src="https://img.shields.io/badge/pair %20code 1-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkred" alt="PAIR"/>
-  </a>
-</div>
-<br>
-<p align="center">
-    <a href="https://junex-pair-98be468c8276.herokuapp.com/" target="_blank">
-        <img alt="Download zip" src="https://img.shields.io/badge/PAIR CODE%20 2-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkorange&color=darkorange"/>
-    </a>
-</p>
+Deploy suggestions
+- Heroku (classic Node): push to GitHub and deploy from a repo; set SELF_URL and OWNER_NUMBER env vars in Heroku settings.
+- Heroku Container (heroku.yml): build the Docker container and deploy.
+- Railway / Render / VPS: ensure the host allows headless Chrome and set environment variables.
 
+Security & legal
+- Do not share the uploaded song unless you have distribution rights.
+- WhatsApp automation may violate WhatsApp's terms of service — use responsibly and at your own risk.
 
-<p align="center">  
-<strong> DOWNLOAD ZIP </strong>
-    <br>
-    <a href="https://codeload.github.com/vinpink2/JUNE-X/zip/refs/heads/main" target="_blank">
-        <img alt="Download zip" src="https://img.shields.io/badge/DOWNLOAD-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkorange&color=darkblue"/>
-    </a>
-</p>
+Customizations I can help with
+- Replace the background image with an external URL or a CDN link.
+- Add a hosted repo and push files to GitHub for you (I can provide exact git commands and a repo name suggestion).
+- Add QR display UI in the web page (currently QR is printed in server console).
+- Add persistent session handling and web UI for message logs.
 
-
-
-    
-
-
-
+Author: virus (Brainmoses254)
